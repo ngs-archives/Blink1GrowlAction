@@ -19,12 +19,6 @@
 		85975A7B16A8FB8D00AB7FBF /* Minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 85975A7716A8FB8D00AB7FBF /* Minus.png */; };
 		85975A7C16A8FB8D00AB7FBF /* Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 85975A7816A8FB8D00AB7FBF /* Plus.png */; };
 		85975A7D16A8FB8D00AB7FBF /* Plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85975A7916A8FB8D00AB7FBF /* Plus@2x.png */; };
-		85975A9B16A900BA00AB7FBF /* blink1-lib.c in Sources */ = {isa = PBXBuildFile; fileRef = 85975A8F16A900BA00AB7FBF /* blink1-lib.c */; };
-		85975A9C16A900BA00AB7FBF /* hid.c in Sources */ = {isa = PBXBuildFile; fileRef = 85975A9116A900BA00AB7FBF /* hid.c */; };
-		85975A9D16A900BA00AB7FBF /* Blink1.m in Sources */ = {isa = PBXBuildFile; fileRef = 85975A9616A900BA00AB7FBF /* Blink1.m */; };
-		85975A9E16A900BA00AB7FBF /* Blink1Input.m in Sources */ = {isa = PBXBuildFile; fileRef = 85975A9816A900BA00AB7FBF /* Blink1Input.m */; };
-		85975A9F16A900BA00AB7FBF /* Blink1Pattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 85975A9A16A900BA00AB7FBF /* Blink1Pattern.m */; };
-		85975AA216A900C600AB7FBF /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85975AA116A900C600AB7FBF /* IOKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,23 +34,11 @@
 		85975A4B16A8F66D00AB7FBF /* GrowlBlink1PreferencePane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrowlBlink1PreferencePane.m; sourceTree = "<group>"; };
 		85975A4D16A8F66D00AB7FBF /* GrowlBlink1Action.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrowlBlink1Action.h; sourceTree = "<group>"; };
 		85975A4E16A8F66D00AB7FBF /* GrowlBlink1Action.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrowlBlink1Action.m; sourceTree = "<group>"; };
-		85975A5516A8F73000AB7FBF /* GrowlPlugins.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GrowlPlugins.framework; sourceTree = "<group>"; };
+		85975A5516A8F73000AB7FBF /* GrowlPlugins.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GrowlPlugins.framework; path = Blink1/GrowlPlugins.framework; sourceTree = "<group>"; };
 		85975A7616A8FB8D00AB7FBF /* Minus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Minus@2x.png"; sourceTree = "<group>"; };
 		85975A7716A8FB8D00AB7FBF /* Minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Minus.png; sourceTree = "<group>"; };
 		85975A7816A8FB8D00AB7FBF /* Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plus.png; sourceTree = "<group>"; };
 		85975A7916A8FB8D00AB7FBF /* Plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plus@2x.png"; sourceTree = "<group>"; };
-		85975A8F16A900BA00AB7FBF /* blink1-lib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "blink1-lib.c"; sourceTree = "<group>"; };
-		85975A9016A900BA00AB7FBF /* blink1-lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "blink1-lib.h"; sourceTree = "<group>"; };
-		85975A9116A900BA00AB7FBF /* hid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hid.c; sourceTree = "<group>"; };
-		85975A9216A900BA00AB7FBF /* hidapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hidapi.h; sourceTree = "<group>"; };
-		85975A9316A900BA00AB7FBF /* usbconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usbconfig.h; sourceTree = "<group>"; };
-		85975A9516A900BA00AB7FBF /* Blink1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blink1.h; sourceTree = "<group>"; };
-		85975A9616A900BA00AB7FBF /* Blink1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Blink1.m; sourceTree = "<group>"; };
-		85975A9716A900BA00AB7FBF /* Blink1Input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blink1Input.h; sourceTree = "<group>"; };
-		85975A9816A900BA00AB7FBF /* Blink1Input.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Blink1Input.m; sourceTree = "<group>"; };
-		85975A9916A900BA00AB7FBF /* Blink1Pattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blink1Pattern.h; sourceTree = "<group>"; };
-		85975A9A16A900BA00AB7FBF /* Blink1Pattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Blink1Pattern.m; sourceTree = "<group>"; };
-		85975AA116A900C600AB7FBF /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +46,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85975AA216A900C600AB7FBF /* IOKit.framework in Frameworks */,
 				85975A3916A8F66D00AB7FBF /* Cocoa.framework in Frameworks */,
 				85975A3B16A8F66D00AB7FBF /* AppKit.framework in Frameworks */,
 				85975A3D16A8F66D00AB7FBF /* Foundation.framework in Frameworks */,
@@ -78,7 +59,6 @@
 		85975A2A16A8F66D00AB7FBF = {
 			isa = PBXGroup;
 			children = (
-				85975A8D16A900BA00AB7FBF /* Vendors */,
 				85975A3E16A8F66D00AB7FBF /* Blink1 */,
 				85975A3716A8F66D00AB7FBF /* Frameworks */,
 				85975A3616A8F66D00AB7FBF /* Products */,
@@ -96,7 +76,7 @@
 		85975A3716A8F66D00AB7FBF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				85975AA116A900C600AB7FBF /* IOKit.framework */,
+				85975A5516A8F73000AB7FBF /* GrowlPlugins.framework */,
 				85975A3816A8F66D00AB7FBF /* Cocoa.framework */,
 				85975A3A16A8F66D00AB7FBF /* AppKit.framework */,
 				85975A3C16A8F66D00AB7FBF /* Foundation.framework */,
@@ -108,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				85975A7E16A8FB9200AB7FBF /* Assets */,
-				85975A5516A8F73000AB7FBF /* GrowlPlugins.framework */,
 				85975A4516A8F66D00AB7FBF /* Blink1PrefPane.xib */,
 				85975A4A16A8F66D00AB7FBF /* GrowlBlink1PreferencePane.h */,
 				85975A4B16A8F66D00AB7FBF /* GrowlBlink1PreferencePane.m */,
@@ -138,40 +117,6 @@
 				85975A7916A8FB8D00AB7FBF /* Plus@2x.png */,
 			);
 			name = Assets;
-			sourceTree = "<group>";
-		};
-		85975A8D16A900BA00AB7FBF /* Vendors */ = {
-			isa = PBXGroup;
-			children = (
-				85975A8E16A900BA00AB7FBF /* blink1-lib */,
-				85975A9416A900BA00AB7FBF /* Blink1Control */,
-			);
-			path = Vendors;
-			sourceTree = "<group>";
-		};
-		85975A8E16A900BA00AB7FBF /* blink1-lib */ = {
-			isa = PBXGroup;
-			children = (
-				85975A8F16A900BA00AB7FBF /* blink1-lib.c */,
-				85975A9016A900BA00AB7FBF /* blink1-lib.h */,
-				85975A9116A900BA00AB7FBF /* hid.c */,
-				85975A9216A900BA00AB7FBF /* hidapi.h */,
-				85975A9316A900BA00AB7FBF /* usbconfig.h */,
-			);
-			path = "blink1-lib";
-			sourceTree = "<group>";
-		};
-		85975A9416A900BA00AB7FBF /* Blink1Control */ = {
-			isa = PBXGroup;
-			children = (
-				85975A9516A900BA00AB7FBF /* Blink1.h */,
-				85975A9616A900BA00AB7FBF /* Blink1.m */,
-				85975A9716A900BA00AB7FBF /* Blink1Input.h */,
-				85975A9816A900BA00AB7FBF /* Blink1Input.m */,
-				85975A9916A900BA00AB7FBF /* Blink1Pattern.h */,
-				85975A9A16A900BA00AB7FBF /* Blink1Pattern.m */,
-			);
-			path = Blink1Control;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,11 +205,6 @@
 			files = (
 				85975A4C16A8F66D00AB7FBF /* GrowlBlink1PreferencePane.m in Sources */,
 				85975A4F16A8F66D00AB7FBF /* GrowlBlink1Action.m in Sources */,
-				85975A9B16A900BA00AB7FBF /* blink1-lib.c in Sources */,
-				85975A9C16A900BA00AB7FBF /* hid.c in Sources */,
-				85975A9D16A900BA00AB7FBF /* Blink1.m in Sources */,
-				85975A9E16A900BA00AB7FBF /* Blink1Input.m in Sources */,
-				85975A9F16A900BA00AB7FBF /* Blink1Pattern.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

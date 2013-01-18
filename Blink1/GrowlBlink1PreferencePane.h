@@ -8,6 +8,8 @@
 
 #import <GrowlPlugins/GrowlPluginPreferencePane.h>
 
-@interface GrowlBlink1PreferencePane : GrowlPluginPreferencePane
+@interface GrowlBlink1PreferencePane : GrowlPluginPreferencePane<NSTableViewDataSource, NSTableViewDelegate>
+
+@property (weak) IBOutlet NSTableView *tableView;
 
 @end
