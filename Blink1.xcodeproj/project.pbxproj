@@ -12,9 +12,13 @@
 		85975A3D16A8F66D00AB7FBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85975A3C16A8F66D00AB7FBF /* Foundation.framework */; };
 		85975A4316A8F66D00AB7FBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85975A4116A8F66D00AB7FBF /* InfoPlist.strings */; };
 		85975A4716A8F66D00AB7FBF /* Blink1PrefPane.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85975A4516A8F66D00AB7FBF /* Blink1PrefPane.xib */; };
-		85975A4916A8F66D00AB7FBF /* GrowlPlugins.framework in Resources */ = {isa = PBXBuildFile; fileRef = 85975A4816A8F66D00AB7FBF /* GrowlPlugins.framework */; };
 		85975A4C16A8F66D00AB7FBF /* GrowlBlink1PreferencePane.m in Sources */ = {isa = PBXBuildFile; fileRef = 85975A4B16A8F66D00AB7FBF /* GrowlBlink1PreferencePane.m */; };
 		85975A4F16A8F66D00AB7FBF /* GrowlBlink1Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 85975A4E16A8F66D00AB7FBF /* GrowlBlink1Action.m */; };
+		85975A5616A8F73000AB7FBF /* GrowlPlugins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85975A5516A8F73000AB7FBF /* GrowlPlugins.framework */; };
+		85975A7A16A8FB8D00AB7FBF /* Minus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85975A7616A8FB8D00AB7FBF /* Minus@2x.png */; };
+		85975A7B16A8FB8D00AB7FBF /* Minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 85975A7716A8FB8D00AB7FBF /* Minus.png */; };
+		85975A7C16A8FB8D00AB7FBF /* Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 85975A7816A8FB8D00AB7FBF /* Plus.png */; };
+		85975A7D16A8FB8D00AB7FBF /* Plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85975A7916A8FB8D00AB7FBF /* Plus@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,11 +30,15 @@
 		85975A4216A8F66D00AB7FBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		85975A4416A8F66D00AB7FBF /* Blink1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Blink1-Prefix.pch"; sourceTree = "<group>"; };
 		85975A4616A8F66D00AB7FBF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Blink1PrefPane.xib; sourceTree = "<group>"; };
-		85975A4816A8F66D00AB7FBF /* GrowlPlugins.framework */ = {isa = PBXFileReference; lastKnownFileType = text; path = GrowlPlugins.framework; sourceTree = "<group>"; };
 		85975A4A16A8F66D00AB7FBF /* GrowlBlink1PreferencePane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrowlBlink1PreferencePane.h; sourceTree = "<group>"; };
 		85975A4B16A8F66D00AB7FBF /* GrowlBlink1PreferencePane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrowlBlink1PreferencePane.m; sourceTree = "<group>"; };
 		85975A4D16A8F66D00AB7FBF /* GrowlBlink1Action.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrowlBlink1Action.h; sourceTree = "<group>"; };
 		85975A4E16A8F66D00AB7FBF /* GrowlBlink1Action.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrowlBlink1Action.m; sourceTree = "<group>"; };
+		85975A5516A8F73000AB7FBF /* GrowlPlugins.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GrowlPlugins.framework; sourceTree = "<group>"; };
+		85975A7616A8FB8D00AB7FBF /* Minus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Minus@2x.png"; sourceTree = "<group>"; };
+		85975A7716A8FB8D00AB7FBF /* Minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Minus.png; sourceTree = "<group>"; };
+		85975A7816A8FB8D00AB7FBF /* Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plus.png; sourceTree = "<group>"; };
+		85975A7916A8FB8D00AB7FBF /* Plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plus@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,7 @@
 				85975A3916A8F66D00AB7FBF /* Cocoa.framework in Frameworks */,
 				85975A3B16A8F66D00AB7FBF /* AppKit.framework in Frameworks */,
 				85975A3D16A8F66D00AB7FBF /* Foundation.framework in Frameworks */,
+				85975A5616A8F73000AB7FBF /* GrowlPlugins.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,8 +86,9 @@
 		85975A3E16A8F66D00AB7FBF /* Blink1 */ = {
 			isa = PBXGroup;
 			children = (
+				85975A7E16A8FB9200AB7FBF /* Assets */,
+				85975A5516A8F73000AB7FBF /* GrowlPlugins.framework */,
 				85975A4516A8F66D00AB7FBF /* Blink1PrefPane.xib */,
-				85975A4816A8F66D00AB7FBF /* GrowlPlugins.framework */,
 				85975A4A16A8F66D00AB7FBF /* GrowlBlink1PreferencePane.h */,
 				85975A4B16A8F66D00AB7FBF /* GrowlBlink1PreferencePane.m */,
 				85975A4D16A8F66D00AB7FBF /* GrowlBlink1Action.h */,
@@ -98,6 +108,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		85975A7E16A8FB9200AB7FBF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				85975A7616A8FB8D00AB7FBF /* Minus@2x.png */,
+				85975A7716A8FB8D00AB7FBF /* Minus.png */,
+				85975A7816A8FB8D00AB7FBF /* Plus.png */,
+				85975A7916A8FB8D00AB7FBF /* Plus@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -108,6 +129,7 @@
 				85975A3116A8F66D00AB7FBF /* Sources */,
 				85975A3216A8F66D00AB7FBF /* Frameworks */,
 				85975A3316A8F66D00AB7FBF /* Resources */,
+				85975A7516A8F7A800AB7FBF /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -151,11 +173,30 @@
 			files = (
 				85975A4316A8F66D00AB7FBF /* InfoPlist.strings in Resources */,
 				85975A4716A8F66D00AB7FBF /* Blink1PrefPane.xib in Resources */,
-				85975A4916A8F66D00AB7FBF /* GrowlPlugins.framework in Resources */,
+				85975A7A16A8FB8D00AB7FBF /* Minus@2x.png in Resources */,
+				85975A7B16A8FB8D00AB7FBF /* Minus.png in Resources */,
+				85975A7C16A8FB8D00AB7FBF /* Plus.png in Resources */,
+				85975A7D16A8FB8D00AB7FBF /* Plus@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85975A7516A8F7A800AB7FBF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $INSTALL_BUNDLE == 1 ]; then\nDEST=\"$USER_LIBRARY_DIR/Containers/com.Growl.GrowlHelperApp/Data/Library/Application Support/Growl/Plugins/$FULL_PRODUCT_NAME\"\nORG=\"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\"\nrm -rf \"$DEST\"\ncp -R \"$ORG\" \"$DEST\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		85975A3116A8F66D00AB7FBF /* Sources */ = {
@@ -200,6 +241,7 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -231,6 +273,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -245,9 +288,14 @@
 		85975A5316A8F66D00AB7FBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Blink1\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Blink1/Blink1-Prefix.pch";
 				INFOPLIST_FILE = "Blink1/Blink1-Info.plist";
+				INSTALL_BUNDLE = 1;
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Application Support/Growl/Plugins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = growlView;
@@ -257,9 +305,14 @@
 		85975A5416A8F66D00AB7FBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Blink1\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Blink1/Blink1-Prefix.pch";
 				INFOPLIST_FILE = "Blink1/Blink1-Info.plist";
+				INSTALL_BUNDLE = "";
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Application Support/Growl/Plugins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = growlView;

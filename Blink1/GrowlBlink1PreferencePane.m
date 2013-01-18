@@ -26,7 +26,7 @@
 	static NSSet *keys = nil;
 	static dispatch_once_t onceToken;
 	dispatch_once(&onceToken, ^{
-		keys = [[NSSet set] retain];
+		keys = [NSSet set];
 	});
 	return keys;
 }
